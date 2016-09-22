@@ -6,13 +6,13 @@ body {
     word-wrap: break-word;
 }
 
-@media ( max-width: 768px ) {
+@media (max-width: 768px){
     .bs-docs-section {
         margin-bottom: 3rem;
     }
 }
 
-@media ( min-width: 768px ) {
+@media (min-width: 768px){
     #banner {
         min-height: 300px;
         border-bottom: none;
