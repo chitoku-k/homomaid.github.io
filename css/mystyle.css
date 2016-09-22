@@ -1,11 +1,25 @@
-body { padding-top: 80px; }
+body { 
+    padding-top: 80px;
+}
+
+.break-word {
+    word-wrap: break-word;
+}
+
+@media ( max-width: 768px ) {
+    .bs-docs-section {
+        margin-bottom: 3rem;
+    }
+}
+
 @media ( min-width: 768px ) {
     #banner {
         min-height: 300px;
         border-bottom: none;
     }
     .bs-docs-section {
-        margin-top: 8em;
+        margin-top: 8rem;
+        margin-bottom: 5rem;
     }
     .bs-component {
         position: relative;
@@ -34,8 +48,4 @@ body { padding-top: 80px; }
     .progress {
         margin-bottom: 10px;
     }
-}
-
-.break-word {
-    word-wrap: break-word;
 }
