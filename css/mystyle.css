@@ -6,7 +6,11 @@ body {
     word-wrap: break-word;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
+    #banner {
+        border-bottom: none;
+    }
+
     .bs-docs-section {
         margin-bottom: 2em;
     }
